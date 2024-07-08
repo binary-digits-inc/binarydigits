@@ -64,14 +64,14 @@ const Navbar = ({
               to bg-neutral-400 bg-opacity-50"
         >
           <div onClick={scrollToWebsiteDesign} className="hover:text-gray-50">
-            Website Design
+            Web Design & Development
           </div>
           <div onClick={scrollToGraphicDesign} className="hover:text-gray-50">
             Graphic Design
           </div>
 
           <div onClick={scrollToShopifyStores} className="hover:text-gray-50">
-            Shopify Stores
+            Business Analytics
           </div>
           <div onClick={scrollToBrands} className="hover:text-gray-50">
             Brands
