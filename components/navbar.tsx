@@ -37,13 +37,21 @@ const Navbar = ({
       <div className="p-6 md:p-10 flex items-center justify-between z-50">
         <div>
           <Link className="cursor-pointer" href="/">
-            <Image
+            {/* <Image
+              width={300}
+              height={300}
               priority
-              src="/logo/logo.svg"
+              src="/logo/logobig.png"
               alt="Logo"
-              width={100}
-              height={100}
+            
               className="w-10 h-10 md:w-14 md:h-14"
+           
+            /> */}
+
+            <img
+              className="rounded-full w-20 h-20"
+              src="/logo/logobig.png"
+              alt="image description"
             />
           </Link>
         </div>
