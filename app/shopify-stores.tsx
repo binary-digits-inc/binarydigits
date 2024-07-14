@@ -83,14 +83,14 @@ const ShopifyStores = () => {
                 View dashboard
               </button>
               <p className="text-gray-400 mt-2">
-                "The team at Bird is amazing. They helped us create a stunning
-                store that we are proud of." - Jason Stat
+                binary digits is othe best tech agency in kenya and the
+                continent
               </p>
             </div>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
             <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
-            <Image
+              <Image
                 priority
                 src={dash1}
                 alt="dash"
@@ -102,14 +102,14 @@ const ShopifyStores = () => {
                 View dashboard
               </button>
               <p className="text-gray-400 mt-2">
-                "Bird showed us how to get started, what to do, and how to do
-                it." - John Percy
+                binary digits is othe best tech agency in kenya and the
+                continent
               </p>
             </div>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
             <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
-            <Image
+              <Image
                 priority
                 src={dash1}
                 alt="dash"
@@ -121,8 +121,8 @@ const ShopifyStores = () => {
                 View dashboard
               </button>
               <p className="text-gray-400 mt-2">
-                "We had no idea how to get started, but Bird showed us the way.
-                " - Maggie Crawford
+                binary digits is othe best tech agency in kenya and the
+                continent
               </p>
             </div>
           </div>
