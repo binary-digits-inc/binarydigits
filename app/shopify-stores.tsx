@@ -1,6 +1,9 @@
 "use client";
 
 import Image from "next/image";
+import dash1 from "./assets/dash1.png";
+import dash2 from "./assets/dash2.jpg";
+import dash3 from "./assets/dash3.png";
 
 const stores = [
   {
@@ -37,9 +40,10 @@ const ShopifyStores = () => {
         </div>
 
         <p className="mt-4 text-lg font-normal  text-neutral-800 max-w-lg text-center mx-auto">
-          We help create stunning analytics dashboards that enable quick comprehension of your business objectives.
+          We help create stunning analytics dashboards that enable quick
+          comprehension of your business objectives.
         </p>
-        <div className="md:flex items-center justify-center  px-10 ">
+        {/* <div className="md:flex items-center justify-center  px-10 ">
           {stores.map((store, index) => (
             <div
               key={index}
@@ -63,6 +67,65 @@ const ShopifyStores = () => {
               </div>
             </div>
           ))}
+        </div> */}
+        <div className="flex flex-wrap justify-around bg-gray-900 p-8">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+            <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
+              <Image
+                priority
+                src={dash1}
+                alt="dash"
+                width={500}
+                height={500}
+                className="rounded-2xl"
+              />
+              <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded">
+                View dashboard
+              </button>
+              <p className="text-gray-400 mt-2">
+                "The team at Bird is amazing. They helped us create a stunning
+                store that we are proud of." - Jason Stat
+              </p>
+            </div>
+          </div>
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+            <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
+            <Image
+                priority
+                src={dash1}
+                alt="dash"
+                width={500}
+                height={500}
+                className="rounded-2xl"
+              />
+              <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded">
+                View dashboard
+              </button>
+              <p className="text-gray-400 mt-2">
+                "Bird showed us how to get started, what to do, and how to do
+                it." - John Percy
+              </p>
+            </div>
+          </div>
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+            <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
+            <Image
+                priority
+                src={dash1}
+                alt="dash"
+                width={500}
+                height={500}
+                className="rounded-2xl"
+              />
+              <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded">
+                View dashboard
+              </button>
+              <p className="text-gray-400 mt-2">
+                "We had no idea how to get started, but Bird showed us the way.
+                " - Maggie Crawford
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
