@@ -3,7 +3,8 @@
 import Image from "next/image";
 import dash1 from "./assets/dash1.png";
 import dash2 from "./assets/dash2.jpg";
-import dash3 from "./assets/dash3.png";
+import dash6 from "./assets/dash6.jpg";
+import dash4 from "./assets/dash4.png";
 
 const stores = [
   {
@@ -43,6 +44,11 @@ const ShopifyStores = () => {
           We help create stunning analytics dashboards that enable quick
           comprehension of your business objectives.
         </p>
+        <p className="mt-4 text-lg font-normal  text-neutral-800 max-w-lg text-center mx-auto">
+          Analytics dashboards provide real-time insights, track performance,
+          identify trends, improve decision-making, enhance efficiency, optimize
+          strategies, and drive business growth effectively.
+        </p>
         {/* <div className="md:flex items-center justify-center  px-10 ">
           {stores.map((store, index) => (
             <div
@@ -79,51 +85,41 @@ const ShopifyStores = () => {
                 height={500}
                 className="rounded-2xl"
               />
-              <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded">
+              {/* <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded">
                 View dashboard
-              </button>
-              <p className="text-gray-400 mt-2">
-                binary digits is othe best tech agency in kenya and the
-                continent
-              </p>
+              </button> */}
+              {/* <p className="text-gray-400 mt-2">
+                binarydigits helped us automate our repetitive tasks and made it easier to understand our goals 
+              </p> */}
             </div>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
             <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
               <Image
                 priority
-                src={dash1}
+                src={dash6}
                 alt="dash"
                 width={500}
                 height={500}
                 className="rounded-2xl"
               />
-              <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded">
-                View dashboard
-              </button>
-              <p className="text-gray-400 mt-2">
-                binary digits is othe best tech agency in kenya and the
-                continent
-              </p>
             </div>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
             <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
               <Image
                 priority
-                src={dash1}
+                src={dash4}
                 alt="dash"
                 width={500}
                 height={500}
                 className="rounded-2xl"
               />
-              <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded">
-                View dashboard
-              </button>
-              <p className="text-gray-400 mt-2">
+
+              {/* <p className="text-gray-400 mt-2">
                 binary digits is othe best tech agency in kenya and the
                 continent
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

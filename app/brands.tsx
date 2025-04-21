@@ -65,8 +65,7 @@ const Brands = () => {
             font.className
           )}
         >
-          &quot;We got rid of nearly a dozen different tools because of what
-          Bird does for us.&quot;
+          &quot;The team at binarydigits walked with us every step of the way and made the entire digitization process transparent and easy to understand at no extra cost.&quot;
         </div>
 
         <div className="items-center flex justify-center flex-col text-white">
@@ -79,8 +78,8 @@ const Brands = () => {
           />
 
           <div className=" text-center">
-            <div className="text-sm  font-medium pt-4">Carlos Hernandez</div>
-            <div className="text-sm">Marketing Director, Palium Software</div>
+            <div className="text-sm  font-medium pt-4">Rev Silas Wanjala</div>
+            <div className="text-sm">Principal, RITT school of Technology</div>
           </div>
         </div>
       </div>

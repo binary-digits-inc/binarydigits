@@ -6,6 +6,7 @@ import { AlignJustify, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import DropDownMenu from "./drop-down-menu";
+import Logo1 from '../app/assets/binarydigits logo.png'; // Adjust the path to your logo image
 
 interface NavbarProps {
   scrollToWebsiteDesign: () => void;
@@ -48,11 +49,15 @@ const Navbar = ({
            
             /> */}
 
-            <img
-              className="rounded-full w-20 h-20"
-              src="/logo/logobig.png"
-              alt="image description"
-            />
+            <div className="flex justify-center items-center">
+              <Image
+                src={Logo1} // Replace with your logo path
+                alt="Company Logo"
+                width={150} // Adjust size as needed
+                height={150}
+                className="rounded-full aspect-square shadow-md"
+              />
+            </div>
           </Link>
         </div>
         <div
@@ -74,12 +79,12 @@ const Navbar = ({
             Business Analytics
           </div>
           <div onClick={scrollToBrands} className="hover:text-gray-50">
-            Brands
+            Partners
           </div>
 
-          <Link href="/pricing" className="hover:text-gray-50">
+          {/* <Link href="/pricing" className="hover:text-gray-50">
             Pricing
-          </Link>
+          </Link> */}
         </div>
 
         <div className="flex md:hidden">

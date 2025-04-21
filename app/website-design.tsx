@@ -12,7 +12,13 @@ const WebsiteDesign = () => {
         <p className="mt-4 text-lg font-normal  text-neutral-300 max-w-lg text-center mx-auto px-4">
           Creating, designing and developing websites that work for your
           business.
+
+         
         </p>
+        <p className="mt-4 text-lg font-normal  text-neutral-300 max-w-lg text-center mx-auto px-4">
+        Following these steps ensures a well-structured digital product for both upcoming and well established businesses.
+        </p>
+        
       </div>
 
       {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-4 py-10">
@@ -145,7 +151,6 @@ const WebsiteDesign = () => {
           </div>
         </div>
       </div> */}
-  
 
       <ol className="items-center sm:flex py-4 px-10">
         <li className="relative mb-6 sm:mb-0">
@@ -164,15 +169,16 @@ const WebsiteDesign = () => {
             <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
           </div>
           <div className="mt-3 sm:pe-8">
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              Flowbite Library v1.0.0
-            </h3>
-            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
+              IDEA CONCEPTUALIZATION
+            </h2>
+            {/* <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Released on December 2, 2021
-            </time>
-            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Get started with dozens of web components and interactive
-              elements.
+            </time> */}
+            <p className="text-base font-normal text-neutral-300 dark:text-gray-400">
+              Identify a market need, brainstorm solutions, research
+              competitors, define goals, outline strategies, validate
+              feasibility, refine concept, and plan execution.
             </p>
           </div>
         </li>
@@ -193,14 +199,15 @@ const WebsiteDesign = () => {
           </div>
           <div className="mt-3 sm:pe-8">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              Flowbite Library v1.2.0
+              DESIGN
             </h3>
-            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            {/* <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Released on December 23, 2021
-            </time>
-            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Get started with dozens of web components and interactive
-              elements.
+            </time> */}
+            <p className="text-base font-normal text-neutral-300 dark:text-gray-400">
+              Create user-friendly layouts, choose appealing colors, develop
+              branding, structure navigation, ensure accessibility, refine
+              visuals, plan responsiveness, and optimize experience.
             </p>
           </div>
         </li>
@@ -221,14 +228,15 @@ const WebsiteDesign = () => {
           </div>
           <div className="mt-3 sm:pe-8">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              Flowbite Library v1.3.0
+              DEVELOPMENT
             </h3>
-            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            {/* <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Released on January 5, 2022
-            </time>
-            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Get started with dozens of web components and interactive
-              elements.
+            </time> */}
+            <p className="text-base font-normal text-neutral-300 dark:text-gray-400">
+              Write clean code, build core features, integrate databases, test
+              functionality, debug issues, enhance security, optimize speed,
+              ensure seamless performance, and refine usability.
             </p>
           </div>
         </li>
@@ -249,14 +257,15 @@ const WebsiteDesign = () => {
           </div>
           <div className="mt-3 sm:pe-8">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              Flowbite Library v1.3.0
+              DEPLOYMENT
             </h3>
-            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            {/* <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Released on January 5, 2022
-            </time>
-            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Get started with dozens of web components and interactive
-              elements.
+            </time> */}
+            <p className="text-base font-normal text-neutral-300 dark:text-gray-400">
+              Launch platform, configure servers, monitor performance, fix bugs,
+              gather feedback, implement updates, ensure scalability, strengthen
+              security, and enhance user experience.
             </p>
           </div>
         </li>

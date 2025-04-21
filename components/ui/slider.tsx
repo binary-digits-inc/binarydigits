@@ -109,30 +109,32 @@ const SliderOne = () => {
     <div className="flex flex-wrap justify-around bg-gray-900 p-8">
       <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
         <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
-          <h2 className="text-4xl font-bold">150K</h2>
+          <h2 className="text-4xl font-bold">24/7</h2>
           <p className="text-gray-400 mt-2">
-            Top-notch, highly skilled global talent pool.
+          binarydigits provides round-the-clock tech solutions, ensuring 24/7 availability for seamless support, innovation, and reliability whenever your business needs it.
           </p>
         </div>
       </div>
       <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
         <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
-          <h2 className="text-4xl font-bold">$80,000</h2>
+          <h2 className="text-4xl font-bold">$10,000</h2>
           <p className="text-gray-400 mt-2">
-            Cost savings per talent hired through Andela.
+          Our company has optimized operations, reduced costs, and enhanced efficiency, helping businesses save over $10,000 through smart tech solutions and strategic innovations.
           </p>
         </div>
       </div>
       <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
         <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
-          <h2 className="text-4xl font-bold">68%</h2>
-          <p className="text-gray-400 mt-2">Faster time to hire.</p>
+          <h2 className="text-4xl font-bold">100%</h2>
+          <p className="text-gray-400 mt-2">
+          The company ensures 100% transparency, ethical integrity, and accountability, fostering trust and responsibility in every operation for honest business solutions.</p>
         </div>
       </div>
       <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
         <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
-          <h2 className="text-4xl font-bold">35%</h2>
-          <p className="text-gray-400 mt-2">Faster project delivery.</p>
+          <h2 className="text-4xl font-bold">28%</h2>
+          <p className="text-gray-400 mt-2">
+          We make work faster and easier for both developers and clients with better planning, smart tools, and simple steps, so projects finish 28% quicker without losing quality.</p>
         </div>
       </div>
     </div>
