@@ -7,7 +7,7 @@ import Navbar from "@/components/navbar";
 const Book = () => {
   return (
     <>
-      <div className="flex flex-col   w-full  h-screen bg-black/[0.96]  bg-grid-white/[0.02]   ">
+      <div className="flex flex-col   w-full  h-screen bg-cyan-950  bg-grid-white/[0.02]   ">
         <Navbar
           scrollToWebsiteDesign={() => {}}
           scrollToGraphicDesign={() => {}}
